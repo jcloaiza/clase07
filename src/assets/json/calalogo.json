@@ -1,0 +1,119 @@
+[
+  {
+    "Id": 1,
+    "Nombre": "Iroman",
+    "Sinopsis": "Un empresario millonario construye un traje blindado y lo usa para combatir el crimen y el terrorismo.",
+    "Duracion": 120,
+    "Imagen": "ironman1.png",
+    "Actor": [{ "Id": 1, "Nombre": "Robert Downey Jr" }, { "Id": 2, "Nombre": "Gwyneth Paltrow" }],
+    "Genero": [{ "Id": 1, "Nombre": "Acción" }]
+  },
+  {
+    "Id": 2,
+    "Nombre": "Iroman 2",
+    "Sinopsis": "Con el mundo ahora consciente de que él es Iron Man, el millonario inventor Tony Stark debe forjar nuevas alianzas y confrontar a un enemigo nuevo y poderoso..",
+    "Duracion": 125,
+    "Imagen": "Iroman2.png",
+    "Actor": [{ "Id": 1, "Nombre": "Robert Downey Jr" }, { "Id": 2, "Nombre": "Gwyneth Paltrow" }, { "Id": 2, "Nombre": "Scarlett Johansson" }],
+    "Genero": [{ "Id": 1, "Nombre": "Acción" }]
+  },
+  {
+    "Id": 3,
+    "Nombre": "Iroman 3",
+    "Sinopsis": "El descarado y brillante Tony Stark, tras ver destruido todo su universo personal, debe encontrar y enfrentarse a un enemigo cuyo poder no conoce límites. Este viaje pondrá a prueba su entereza una y otra vez, y le obligará a confiar en su ingenio.",
+    "Duracion": 131,
+    "Imagen": "Iroman3.png",
+    "Actor": [{ "Id": 1, "Nombre": "Robert Downey Jr" }, { "Id": 2, "Nombre": "Gwyneth Paltrow" }, { "Id": 3, "Nombre": "Ben Kingsley" }],
+    "Genero": [{ "Id": 1, "Nombre": "Acción" }]
+  },
+  {
+    "Id": 4,
+    "Nombre": "Black Adam",
+    "Sinopsis": "Unos arqueólogos liberan de su tumba a Black Adam, quien llevaba 5000 años preso tras haber recibido los poderes de los dioses. De nuevo entre los humanos, Black Adam se dispone a imponer su justicia, muy diferente a la del mundo en el que despertó..",
+    "Duracion": 124,
+    "Imagen": "BlackAdam.jpg",
+    "Actor": [{ "Id": 1, "Nombre": "Dwayne Johnson" }, { "Id": 2, "Nombre": "Aldis Hodge" }, { "Id": 3, "Nombre": "Noah Centineo" }],
+    "Genero": [{ "Id": 1, "Nombre": "Acción" },{ "Id": 2, "Nombre": "Aventura" }]
+  },
+  {
+    "Id": 5,
+    "Nombre": "Black Panther: Wakanda Forever",
+    "Sinopsis": "Tras la muerte de T'Challa, la reina Ramonda, Shuri, M'Baku, Okoye y las Dora Milaje protegen Wakanda de la injerencia de las potencias mundiales.",
+    "Duracion": 161,
+    "Imagen": "Black Panther.jpeg",
+    "Actor": [{ "Id": 1, "Nombre": "Letitia Wright" }, { "Id": 2, "Nombre": "Lupita Nyong'o" }, { "Id": 3, "Nombre": "Danai Gurira" }],
+    "Genero": [{ "Id": 1, "Nombre": "Acción" },{ "Id": 2, "Nombre": "Cine de superhéroes" }]
+  },
+  {
+    "Id": 6,
+    "Nombre": "Thor",
+    "Sinopsis": "Tras desatar una antigua guerra, el codicioso guerrero Thor es desterrado a la Tierra por su padre para que viva entre los hombres y descubra así el verdadero sentido de la humildad. Allí, sin sus poderes, Thor deberá enfrentarse a las fuerzas más oscuras que su mayor enemigo le enviará desde Asgard.",
+    "Duracion": 161,
+    "Imagen": "thor1.jpg",
+    "Actor": [{ "Id": 1, "Nombre": "Chris Hemsworth" }, { "Id": 2, "Nombre": "Natalie Portman" }, { "Id": 3, "Nombre": "Tom Hiddleston" }],
+    "Genero": [{ "Id": 1, "Nombre": "Acción" },{ "Id": 2, "Nombre": "Aventura" },{ "Id": 2, "Nombre": "Ciencia ficción" }]
+  },
+  {
+    "Id": 7,
+    "Nombre": "Thor: The Dark World",
+    "Sinopsis": "Malekith, un enemigo más antiguo que el universo, regresa a la Tierra para cumplir su plan destructor. Thor debe enfrentarse a un rival al que ni siquiera Odín parece poder detener y, desesperado, libera a su hermano Loki para que lo ayude..",
+    "Duracion": 112,
+    "Imagen": "thor2.jpg",
+    "Actor": [{ "Id": 1, "Nombre": "Chris Hemsworth" }, { "Id": 2, "Nombre": "Natalie Portman" }, { "Id": 3, "Nombre": "Tom Hiddleston" }],
+    "Genero": [{ "Id": 1, "Nombre": "Acción" },{ "Id": 2, "Nombre": "Aventura" },{ "Id": 2, "Nombre": "Ciencia ficción" }]
+  },
+  {
+    "Id": 8,
+    "Nombre": "Thor: Ragnarok",
+    "Sinopsis": "Thor está preso en el otro extremo del universo. Necesita regresar a tiempo para evitar que la todopoderosa Hela destruya su mundo, pero para escapar de su confinamiento y evitar el apocalipsis tendrá que vencer antes al increíble Hulk en un torneo de gladiadores..",
+    "Duracion": 130,
+    "Imagen": "thor3.jpg",
+    "Actor": [{ "Id": 1, "Nombre": "Chris Hemsworth" }, { "Id": 2, "Nombre": "Cate Blanchett" }, { "Id": 3, "Nombre": "Tom Hiddleston" }],
+    "Genero": [{ "Id": 1, "Nombre": "Acción" },{ "Id": 2, "Nombre": "Aventura" },{ "Id": 2, "Nombre": "Ciencia ficción" }]
+  },
+  {
+    "Id": 9,
+    "Nombre": "Thor: Amor y trueno",
+    "Sinopsis": "Thor está buscando la paz interior, pero la irrupción de Gorr, el asesino de dioses, le obliga a volver al combate. Thor recluta a la Reina Valkiria, Korg y su exnovia, Jane Foster, para que lo ayuden a evitar la extinción de los dioses..",
+    "Duracion": 161,
+    "Imagen": "thor-amor-y-trueno-chris-hemsworth.jpeg",
+    "Actor": [{ "Id": 1, "Nombre": "Chris Hemsworth" },{ "Id": 7, "Nombre": "Natalie Portman" }, { "Id": 2, "Nombre": "Christian Bale" }, { "Id": 3, "Nombre": "Tessa Thompson" }],
+    "Genero": [{ "Id": 1, "Nombre": "Acción" },{ "Id": 2, "Nombre": "Aventura" },{ "Id": 2, "Nombre": "Ciencia ficción" }]
+  },
+  {
+    "Id": 10,
+    "Nombre": "Sherlock Holmes",
+    "Sinopsis": "Robert Downey Jr da vida al legendario detective retratándole desde una perspectiva nueva. Jude Law interpreta el papel de Watson, el amigo y colega de confianza de Holmes. Watson es un médico y veterano militar y un formidable aliado de Sherlock Holmes. Rachel McAdams protagoniza el papel de Irene Adler, la única mujer que ha podido dar réplica a Holmes y que ha mantenido unas relaciones tempestuosas con el detective. Mark Strong es Blackwood, su misterioso nuevo adversario. Kelly Reilly interpreta el papel de la novia de Watson, Mary..",
+    "Duracion": 120,
+    "Imagen": "",
+    "Actor": [{ "Id": 1, "Nombre": "Robert Downey Jr" }],
+    "Genero": [{ "Id": 1, "Nombre": "Acción" },{ "Id": 2, "Nombre": "Aventura" }]
+  },
+  {
+    "Id": 11,
+    "Nombre": "La Era del Hielo 1",
+    "Sinopsis": "Un mamut gruñón y sus amigos prehistóricos entran en acción para ayudar a un pequeño perdido a regresar con su padre.",
+    "Duracion": 127,
+    "Imagen": "EraHielo1.jpg",
+    "Actor": [{ "Id": 1, "Nombre": "Ray Romano" },{ "Id": 2, "Nombre": "John Leguizamo"},{ "Id": 3, "Nombre": "Denis Leary" }],
+    "Genero": [{ "Id": 1, "Nombre": "Animación" },{ "Id": 1, "Nombre": "Comedia" },{ "Id": 2, "Nombre": "Aventura" }]
+  },
+  {
+    "Id": 12,
+    "Nombre": "La Era del Hielo 2",
+    "Sinopsis": "Manny, Sid y Diego se reúnen para prevenir a sus amigos sobre los peligros que corren sus hogares debido al hielo derretido.",
+    "Duracion": 127,
+    "Imagen": "EraHielo2.jpg",
+    "Actor": [{ "Id": 1, "Nombre": "Ray Romano" },{ "Id": 2, "Nombre": "John Leguizamo"},{ "Id": 3, "Nombre": "Denis Leary" }],
+    "Genero": [{ "Id": 1, "Nombre": "Animación" },{ "Id": 1, "Nombre": "Comedia" },{ "Id": 2, "Nombre": "Aventura" }]
+  },
+  {
+    "Id": 12,
+    "Nombre": "La Era del Hielo 2",
+    "Sinopsis": "Manny, Diego y el resto del grupo deben rescatar de un mundo subterráneo a Sid, después de que él toma unos huevos de dinosaurio.",
+    "Duracion": 94,
+    "Imagen": "EraHielo3.jpeg",
+    "Actor": [{ "Id": 1, "Nombre": "Ray Romano" },{ "Id": 2, "Nombre": "John Leguizamo"},{ "Id": 3, "Nombre": "Denis Leary" }],
+    "Genero": [{ "Id": 1, "Nombre": "Animación" },{ "Id": 1, "Nombre": "Comedia" },{ "Id": 2, "Nombre": "Aventura" }]
+  }
+]

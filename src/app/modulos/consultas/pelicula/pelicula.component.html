@@ -1,0 +1,32 @@
+<div class="card p-2 m-2">
+    <img [src]="'../../../../assets/peliculas/' + pelicula.Imagen" style="height: 150px; width: 100%;" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">{{pelicula.Nombre}}</h5>
+        <p class="card-text font-small">{{pelicula.Sinopsis}}</p>
+        <div class="row">
+            <div class="col-4 font-small">
+                Duración:
+            </div>
+            <div class="col-8 font-small">
+                <span class="badge text-bg-primary">{{pelicula.Duracion}} minutos</span>
+            </div>
+            <div class="col-4 font-small">
+                Interpretada:
+            </div>
+            <div class="col-8 font-small">
+                <span *ngFor="let actor of  pelicula.Actor"
+                    class="badge text-bg-secondary">{{actor.Nombre}}</span>
+            </div>
+            <div class="col-4 font-small">
+                Genero:
+            </div>
+            <div class="col-8 font-small">
+                <span *ngFor="let genero of  pelicula.Genero"
+                    class="badge text-bg-dark">{{genero.Nombre}}</span>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>

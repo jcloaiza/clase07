@@ -1,0 +1,54 @@
+
+
+<div class="container">
+    <div class="card p-4 m-4">
+        <form>
+            <div class="row">
+
+                <div class="col-12 text-end">
+                    <button type="button" class="btn btn-dark" (click)="onNuevo()">
+                        Nuevo
+                    </button>
+                </div>
+
+            </div>
+            <hr>
+
+            <div class="row">
+
+                <!-- ============================================================== -->
+                <!-- Sección Datos-->
+                <!-- ============================================================== -->
+                <table class="table table-dark table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col" class="text-center"> Código</th>
+                            <th scope="col" class="text-center"> Nombre</th>
+                            <th scope="col" class="text-center"> Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let genero of generos, let i = index">
+                            <td class="text-center">
+                                {{i+1}}
+                            </td>
+                            <td>{{genero.Nombre}}</td>
+                            <td class="text-center">
+                                <div class="btn-group" role="group">
+                                    <button (click)="onEditar(genero)" type="button" class="btn btn-warning">
+                                        <i class="fa fa-pencil" aria-hidden="true"></i>
+                                        <a>Editar</a>
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+            </div>
+        </form>
+
+
+    </div>
+</div>

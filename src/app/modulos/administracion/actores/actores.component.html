@@ -1,0 +1,54 @@
+<div class="container">
+    <div class="row">
+
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title">Crear Actor</h1>
+
+                    <hr>
+                    <div *ngIf="msg" class="alert alert-danger" role="alert">
+                        Por favor diligenciar toda la información obligatoria
+                    </div>
+
+                    <form>
+
+                        <div class="mb-3">
+                            <label class="form-label">Nombre *</label>
+                            <input type="text" name="nombre" [(ngModel)]="actor.Nombre" class="form-control">
+                            <div *ngIf="actor.Nombre===''" class="required">
+                                El nombre es obligatorio
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Apellido</label>
+                            <input type="text" name="apellido" [(ngModel)]="actor.Apellido" class="form-control">
+                            <div *ngIf="actor.Apellido===''" class="required">
+                                El nombre es obligatorio
+                            </div>
+                        </div>
+
+                        <div class="text-end">
+                            <button (click)=" Guardar()" class="btn btn-primary">
+                                Guardar
+                            </button>
+                        </div>
+
+
+
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col">
+            <app-listar-actores [actores]="misActores"
+             (onEliminar)="eliminarenpapa($event)"></app-listar-actores>
+        </div>
+
+
+    </div>
+</div>

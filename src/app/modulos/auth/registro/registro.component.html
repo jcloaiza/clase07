@@ -1,0 +1,90 @@
+<div class="container">
+    <div class="card">
+        <div class="row">
+            <div class="col">
+                <div class="card-body">
+                    <h1 class="card-title text-center">Registrarme</h1>
+
+                    <div *ngIf="vermensaje" class="alert  mt-4 pt-4"
+                        [ngClass]="{'alert-danger': !mensaje.Estado, 'alert-success': mensaje.Estado}" role="alert">
+                        {{mensaje.Texto}}
+                    </div>
+
+                    <form #form="ngForm">
+
+                        <div class="form-group mb-3">
+                            <label>Nombre *</label>
+                            <input [(ngModel)]="usuario.Nombre" name="Nombre" #Nombre="ngModel" type="text"
+                                maxlength="50" class="form-control" required>
+                            <div *ngIf="Nombre.errors?.['required']" class="form-control-feedback text-required">
+
+                            </div>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label>Apellido *</label>
+                            <input [(ngModel)]="usuario.Apellido" name="Nombre" #Apellido="ngModel" type="text"
+                                maxlength="50" class="form-control" required>
+                            <div *ngIf="Nombre.errors?.['Apellido']" class="form-control-feedback text-required">
+
+                            </div>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label>Celular</label>
+                            <input [(ngModel)]="usuario.Celular" name="Celular" #Celular="ngModel" type="text"
+                                maxlength="50" class="form-control" required>
+                            <div *ngIf="Nombre.errors?.['Celular']" class="form-control-feedback text-required">
+
+                            </div>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label>Dirección</label>
+                            <input [(ngModel)]="usuario.Direccion" name="Direccion" #Direccion="ngModel" type="text"
+                                maxlength="50" class="form-control" required>
+                            <div *ngIf="Nombre.errors?.['Direccion']" class="form-control-feedback text-required">
+
+                            </div>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label>Correo *</label>
+                            <input [(ngModel)]="usuario.Correo" name="Correo" #Correo="ngModel" type="text"
+                                maxlength="50" class="form-control" required>
+                            <div *ngIf="Nombre.errors?.['Correo']" class="form-control-feedback text-required">
+
+                            </div>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label>Contraseña *</label>
+                            <input [(ngModel)]="usuario.Clave" name="Clave" #Clave="ngModel" type="password" maxlength="50"
+                                class="form-control" required>
+                            <div *ngIf="Nombre.errors?.['Clave']" class="form-control-feedback text-required">
+
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="text-end">
+                            <button type="button" class="btn btn-dark" (click)="onRegistrar()">
+                                Ingresar
+                            </button>
+                            <button type="button" class="btn btn-secondary" (click)="onRegresar()">
+                                Regresar
+                            </button>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Spinner-->
+<ngx-loading [show]="cargando"></ngx-loading>
